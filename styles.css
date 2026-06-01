@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+#img {
+  width: 100vw;
+  height: 100dvh;
+  object-fit: cover;
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  height: 300dvh;
+}
+
+header {
+  align-items: flex-end;
+  animation: slideInDown forwards 1s ease-out;
+  background: linear-gradient(40deg, #ba3816, #a41705 40%);
+  border-radius: 50%;
+  display: flex;
+  height: 30rem;
+  justify-content: center;
+  left: 50%;
+  margin-top: -22rem;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -25%);
+  width: 30rem;
+  z-index: 1;
+
+  img {
+    width: 200px;
+    margin: 0 auto;
+    height: auto;
+    margin-bottom: 60px;
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(-50%, -100%, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+    opacity: 1;
+  }
+}
