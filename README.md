@@ -48,6 +48,14 @@
   - [🔥 Best Practices Implemented](#-best-practices-implemented)
   - [🎯 Project Goal](#-project-goal)
   - [📄 License](#-license)
+ 
+---
+
+## 🌐 Live Demo
+
+🔗 https://alobuuls.github.io/scroll-image-sequence/
+
+---
 
 ---
 
