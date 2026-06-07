@@ -222,5 +222,6 @@ Practice and strengthen advanced JavaScript concepts through a visual animation 
 
 ## 📄 License
 
-> [!NOTE]
-> This project is intended for educational purposes and is part of a personal portfolio.
+This project is intended for educational and portfolio purposes.
+
+Created by **Alondra Francisco**.
